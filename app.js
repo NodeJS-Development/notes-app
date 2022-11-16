@@ -24,11 +24,26 @@
 // 3. Export getNotes function
 // 4. From app.js, load in and call the fuinction printing the message to console
 
-const validator = require('validator');
+// const validator = require('validator');
+
+const chalk = require('chalk');
 
 const getNotes = require('./notes.js');
 const msg = getNotes();
 
 console.log(msg);
 
-console.log(validator.isURL('https/mead.io'));
+console.log(chalk.green.bold.inverse('Success!'));
+
+// console.log(validator.isURL('https/mead.io'));
+
+// Challenge: Use the chalk library in your project
+//
+// 1. Install version 2.4.1 of chalk
+// 2. Load chalk into app.js
+// 3. Use it to print the string "Success!" to the console in green
+// 4. Test your work
+
+// Bonus: Use docs to mess around with other styles. Make text bold and inversed.
+
+
