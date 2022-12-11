@@ -1,5 +1,6 @@
 [
   { "title": "t", "body": "b" },
   { "title": "My list", "body": "My list body" },
-  { "title": "My list 2", "body": "My list 2 body" }
+  { "title": "My list 2", "body": "My list 2 body" },
+  { "title": "Courses", "body": "Node.js" }
 ]
